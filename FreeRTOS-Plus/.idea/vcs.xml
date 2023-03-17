@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/AWS/device-defender" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/AWS/device-shadow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/AWS/fleet-provisioning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/AWS/jobs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/AWS/ota" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/AWS/sigv4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/Application-Protocols/coreHTTP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/Application-Protocols/coreHTTP/source/dependency/3rdparty/llhttp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/Application-Protocols/coreMQTT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/Application-Protocols/coreMQTT-Agent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/Application-Protocols/coreMQTT-Agent/source/dependency/coreMQTT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/Application-Protocols/coreSNTP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/FreeRTOS-Cellular-Interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/FreeRTOS-Cellular-Interface/test/unit-test/CMock" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/FreeRTOS-Cellular-Interface/test/unit-test/CMock/vendor/c_exception" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/FreeRTOS-Cellular-Interface/test/unit-test/CMock/vendor/unity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/FreeRTOS-Cellular-Modules/bg96" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/FreeRTOS-Cellular-Modules/hl7802" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/FreeRTOS-Cellular-Modules/sara-r4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/FreeRTOS-Plus-TCP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/Utilities/backoff_algorithm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/coreJSON" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/corePKCS11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Source/corePKCS11/source/dependency/3rdparty/pkcs11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Test/CMock" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Test/CMock/vendor/c_exception" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Test/CMock/vendor/unity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ThirdParty/mbedtls" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ThirdParty/tinycbor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ThirdParty/wolfSSL" vcs="Git" />
+  </component>
+</project>
