@@ -244,11 +244,11 @@
         {
             #if ( configSUPPORT_STATIC_ALLOCATION == 1 )
             {
-                StaticTask_t * pxTimerTaskTCBBuffer = NULL;
-                StackType_t * pxTimerTaskStackBuffer = NULL;
-                uint32_t ulTimerTaskStackSize;
-
-                vApplicationGetTimerTaskMemory( &pxTimerTaskTCBBuffer, &pxTimerTaskStackBuffer, &ulTimerTaskStackSize );
+//                StaticTask_t * pxTimerTaskTCBBuffer = NULL;
+//                StackType_t * pxTimerTaskStackBuffer = NULL;
+//                uint32_t ulTimerTaskStackSize;
+//
+//                vApplicationGetTimerTaskMemory( &pxTimerTaskTCBBuffer, &pxTimerTaskStackBuffer, &ulTimerTaskStackSize );
                 // xTimerTaskHandle = xTaskCreateStatic( prvTimerTask,
                 //                                       configTIMER_SERVICE_TASK_NAME,
                 //                                       ulTimerTaskStackSize,
@@ -257,14 +257,15 @@
                 //                                       pxTimerTaskStackBuffer,
                 //                                       pxTimerTaskTCBBuffer );
 
-                TaskHandle_t xHandle = NULL;
+
         //BaseType_t result;
-        xReturn = xTaskCreate( prvTimerTask,       /* The function that implements the task. */
-                              configTIMER_SERVICE_TASK_NAME,
-                              ulTimerTaskStackSize,         /* The stack size is defined in FreeRTOSIPConfig.h. */
-                              NULL,
-                              ( ( UBaseType_t ) configTIMER_TASK_PRIORITY ) | portPRIVILEGE_BIT,         /* The priority assigned to the task is defined in FreeRTOSConfig.h. */
-                              &xHandle);
+
+        xReturn = xTaskCreate( prvTimerTask,
+                                       configTIMER_SERVICE_TASK_NAME,
+                                       configTIMER_TASK_STACK_DEPTH,
+                                       NULL,
+                                       ( ( UBaseType_t ) configTIMER_TASK_PRIORITY ) | portPRIVILEGE_BIT,
+                                       &xTimerTaskHandle );
                 // if( xTimerTaskHandle != NULL )
                 // {
                 //     xReturn = pdPASS;
